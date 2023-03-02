@@ -1,0 +1,37 @@
+footer {
+    padding: 2px;
+    
+    background-color: black;
+    height: 30px;
+    margin-top:auto;
+  }
+  .footer-text{
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+  }
+
+  .footeralign{
+    display: flex;
+    align-items:center;
+    font-size: 12px;
+    justify-content: center;
+    background-color: #2E1D1E;
+    position: fixed;
+    width: 100%;
+    color:white;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 30px;
+  }
+
+
+  
+  
+  
+  
+  
+
+  
