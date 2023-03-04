@@ -6,7 +6,7 @@
         <input class="search"  type="text" name="search" placeholder="Search">
       </div>
       <div><img class="search-logo" src="https://img.icons8.com/emoji/2x/magnifying-glass-tilted-left-emoji.png" alt="search logo"></div>
-      <div class="cart-name" >Cart</div>
-      <div><img class="cart-logo" src="../../../assets/cart-small.png" alt="cart logo"></div>
+      <div class="cart-name" (click)="goCart()" >Cart</div>
+      <div><img class="cart-logo" src="../../../assets/cart-small.png" (click)="goCart()" alt="cart logo"></div>
     </div>
 </header>

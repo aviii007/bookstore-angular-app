@@ -1,18 +1,19 @@
 import { NgModule, OnInit } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-
+import { BooksComponent } from './components/books/books.component';
+import { CartComponent } from './components/cart/cart.component';
 
 
 const routes: Routes = [
- 
+  {path:"",component:BooksComponent},
+  {path:"cart",component:CartComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule implements OnInit {
+export class AppRoutingModule {
   
   ngOnInit(): void {
   }
