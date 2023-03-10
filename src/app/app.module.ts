@@ -21,6 +21,7 @@ import{MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
+import { OrdersComponent } from './components/orders/orders.component';
 
 
 
@@ -31,7 +32,8 @@ import {MatRadioModule} from '@angular/material/radio';
     FooterComponent,
     HeaderComponent,
     BooksComponent,
-    CartComponent
+    CartComponent,
+    OrdersComponent
    
     
     
