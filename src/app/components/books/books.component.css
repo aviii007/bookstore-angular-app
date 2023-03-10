@@ -11,14 +11,23 @@
     grid-column: 4;
   }
   .book{
-    padding: 0.5cm 1cm 1cm 1cm;
-    background-color:lightgray;
+    /* padding: 0.5cm 1cm 1cm 1cm; */
+    /* background-color:lightgray; */
+    background-color:#eeeeee;
     display: inline-grid;
     justify-content: center;
     border-radius: 5px;
+
+    padding-top: 10px;
+  
   
   }
   .home-content{
+  }
+
+  .book-content{
+    background-color:azure;
+    padding-left: 25px;
   }
   .book-text{
     margin-left:4%;
@@ -76,3 +85,4 @@
     text-align: center;
     height: 30px;
   }
+
