@@ -2,7 +2,7 @@
 
     <div class="book-text head">Books
   
-        <span class="item-text">(6 items)</span>
+        <span class="item-text">({{list.length}})</span>
   
         <select class="sort-content" name="sortbook" id="sortbook">
   
@@ -18,7 +18,7 @@
   
     </div>
   
-    <mat-card>
+    <!-- <mat-card>
   
    <mat-card-content class="book1 book"><img src="../../../assets/book1.png" alt="book1">
   
@@ -132,8 +132,24 @@
   
   
         </mat-card>
-  
-      </div>
+   -->
+   <div class="main-content">
+    <mat-card *ngFor="let book of list" class="books">
+        <mat-card-content class="book">
+            <img src="https://www.adazing.com/wp-content/uploads/2022/12/Harry-Potter-Book-Covers-Order-of-the-Phoenix-667x1024.jpg" alt="book2" height="200px" width="50px">
+            <div class="book-content">
+            <div class="book-title">{{book.bookName}}</div>
+            <div class="auther-name">By {{book.bookAuthor}}</div>
+            <div class="book-price">Rs.{{book.bookPrice}}</div>
+            <button class="add-to-cart actions" mat-stroked-button (click)="onAdd()">{{button}}</button>
+            <button class="wishlist actions" mat-stroked-button>WishList</button>
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    
+</div>      
+</div>
 
       <div class="footeralign">
         Copyright ©2023 Bookstore Private Limited All Rights Reserved <a style="color:blue ;" href="">Privacy Policy</a>  & <a style="color:blue ;" href="">Terms & Conditions</a>
