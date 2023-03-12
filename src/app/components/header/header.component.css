@@ -53,3 +53,11 @@
     margin-top: 12px;
     cursor:pointer;
 }
+
+.login{
+    margin-top: 12px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    padding-left: 50px;
+}
