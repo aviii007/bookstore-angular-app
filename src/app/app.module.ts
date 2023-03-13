@@ -24,6 +24,8 @@ import {MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
 import { OrdersComponent } from './components/orders/orders.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -35,7 +37,9 @@ import { OrdersComponent } from './components/orders/orders.component';
     HeaderComponent,
     BooksComponent,
     CartComponent,
-    OrdersComponent
+    OrdersComponent,
+    RegisterComponent,
+    LoginComponent
    
     
     
